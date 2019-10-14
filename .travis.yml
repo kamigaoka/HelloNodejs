@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.0.0
+- 1.9.3
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: npm
+  email: takuma.kamigaoka@gmail.com
+  on:
+    tags: true
+  api_key:
+    secure: 4EDIaxl5D2eySsCXnZfh1k3GiJh/l4NzWPggzRt8JRHILWTbc9YwhEBJ/8qFT6X75ZUkX/AhDZk3vc8n/zIsJDIcUaXadY1nWzSFhu6lVpXFQfYj2rPnVJVASi2LqQPLeLR94YO9o2YOMEIS4Dy3QAxoRzhYgAL6auKad0M7KZBqTQO+NGd/b8k9nFqG9wcSqTbw7A2HrCafLS2lR2I/yZxnpJBDIRfJd7q6MJFwigCBRifihggtcTYTJOdLI0uoloUsQ67qE7OfKb9UGmIhbjI/+oJ4MHWpjyP2fAKyaR/F4sOYQy6Glrya+UZCrUb3IvTpd4CgF4cVZWbX4zEdSRNxw5+uewPWZdyPqTJsvqryF4ZX6OkYOi6kA23Y97jOlUrrZHu260nidtSgl92t/TR6RAJBc2WR+kAWcyneFJBY+fBovNsbyRrrb3EiSeBTqH39xIym9asVGottkJm8X4js44ArPKrKZWj93mespeqxFjyVdleRPQ7kma63GKjv81CQ4AB6xYsK2ZAJme+oW16e071BFM9HYGvL0jMSYdRh6u91GxbhwYE2+m9CFyVTfH3kcFXFVWo+ssYpAZ2LDfwOXIisHfO/TbXusBjNH/gTUqW84PXkqwiBFJj5nHUhJrDx2P6Fc7zzWh/dwbwEwzQwu0+7d85PwOFe1NPc8mQ=
