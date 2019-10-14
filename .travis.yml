@@ -1,8 +1,10 @@
 language: node_js
 node_js:
-- stable
-- '6'
-- '4'
+  - "node"
+  - "8"
+  - "7"
+  - "6"
+
 deploy:
   provider: npm
   email: takuma.kamigaoka@gmail.com
